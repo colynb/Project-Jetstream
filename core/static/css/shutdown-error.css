@@ -1,0 +1,25 @@
+.shutdown-error {
+    border: solid 3px #c00;
+    z-index: 9999;
+}
+
+.shutdown-error h1 {
+    padding: 0px 10px;
+    margin: 0px;
+    background-color: #c00;
+    color: #fff;
+    font-size: 16px;
+}
+
+.shutdown-error h3 {
+    padding: 0px 10px;
+    margin: 0px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+}
+
+.shutdown-error-content {
+    background-color: #eee;
+    padding: 10px;
+}

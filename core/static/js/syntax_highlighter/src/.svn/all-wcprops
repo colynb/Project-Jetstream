@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/afw/!svn/ver/4/Branches/Development/source/static/browser/js/syntax_highlighter/src
+END
+shAutoloader.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/afw/!svn/ver/4/Branches/Development/source/static/browser/js/syntax_highlighter/src/shAutoloader.js
+END
+shLegacy.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/afw/!svn/ver/4/Branches/Development/source/static/browser/js/syntax_highlighter/src/shLegacy.js
+END
+shCore.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/afw/!svn/ver/4/Branches/Development/source/static/browser/js/syntax_highlighter/src/shCore.js
+END

@@ -1,0 +1,48 @@
+#afw_error {
+    background: #EEE;
+    font-family: Arial, Helvetica;
+    text-align: left;
+    color: #111;
+    text-align: left;
+    border: solid 2px #c00;
+    width: 99%;
+    margin: 5px auto;
+}
+#afw_error h1,#afw_error h2 {
+    margin: 0;
+    padding: 10px;;
+    font-weight: bold;
+    background: #C00;
+    color: #fff;
+    font-size: 14px;
+}
+#afw_error h1 a,#afw_error h2 a {
+    color: #fff;
+}
+
+#afw_error h2 {
+    background: #222;
+}
+
+#afw_error h3 {
+    margin: 0;
+    padding: 0.4em 0 0;
+    font-weight: normal;
+}
+
+#afw_error p {
+    margin: 0;
+    padding: 0.2em 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+#afw_error a {
+    color: #1b323b;
+}
+
+
+
+#afw_error div.content {
+    padding: 0.4em 1em 1em;
+    overflow: hidden;
+}

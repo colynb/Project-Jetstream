@@ -1,1 +1,0 @@
-<h3>Customer Support / FAQ</h3>

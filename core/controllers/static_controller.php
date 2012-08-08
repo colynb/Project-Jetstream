@@ -47,6 +47,14 @@ class Static_Controller extends \jetstream\core\Controller {
 
 		return $response;
 	}
+	
+	public function action_flickr() {
+	echo	$path = $this->request->named['path'];
+		return false;
+	}
+	
+	
+	
 
 	public function inspect($path) {
 		$info = pathinfo($path);

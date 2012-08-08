@@ -8,6 +8,7 @@
  */
 use jetstream\core\System;
 use jetstream\core\http\Router;
+use jetstream\core\http\Response;
 use jetstream\core\debug\Debug;
 
 /**
@@ -24,7 +25,10 @@ Router::set('home', '/', 'Home::gateway', array('vmarket' => 'home'));
  * The provided Static controller parses and compiles the content and prepares it for output.
  */
 Router::set('static', '/static/{:build_id}-{:cache_id}/{:path:.*}', 'Static::render');
-
+Router::set('flickr', '/flickr/{:args}', function(){
+	echo 'asdasd';
+	return new Response('');
+} );
 
 /**
  * Development Only Routes
@@ -70,6 +74,13 @@ Router::set('support-default', '/{:vmarket}/support/{:action}/{:args}', array('c
  */
 Router::set('vmarket-home', '/{:vmarket}/', 'Home::vmarket');
 Router::set('vmarket-default', '/{:vmarket}/{:controller}/{:action}/{:args}');
+
+
+Router::set('home')
+	->route('/home/')
+	->to('Home::index')
+	->accepts('GET','POST');
+
 
 
 Router::set('default', '/{:controller}/{:action}/{:args}');

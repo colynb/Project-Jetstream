@@ -153,7 +153,7 @@ class System {
 		$dirs = array(
 			array('path' => $params['app_build_path']),
 			array('path' => $params['app_build_path'] . DS . 'libraries'),
-			array('path' => CORE_PATH)
+			array('path' => SYSTEM_APP_PATH)
 		);
 
 		foreach ( $dirs as $dir ) {
